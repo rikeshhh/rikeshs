@@ -4,9 +4,9 @@ var anciente=document.getElementById('ancient').value;*/
 
 var i=0;
 var audio=new Audio("monkey.wav");
-var aud=new Audio("cry.wav");
+var audio1=new Audio("cry.wav");
 function newe(){
-    aud.play();
+    audio1.play();
     window.alert("wrong input try again!");
 }
 function old(){
